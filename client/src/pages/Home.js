@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutPic from "./components/imgs/MSD-homepage.jpg";
 import "./Home.css";
 
 const Home = () => (
@@ -8,7 +9,7 @@ const Home = () => (
         <div class="row">
             <div class="small-12 medium-4 columns">
             <div class="author-image">
-                
+                <img alt="Richard Michael Eason" src={aboutPic} />
             </div>
             <div class="author-social">
                 <a href="#">
