@@ -1,4 +1,5 @@
 import React from 'react';
+import RedBow from "./imgs/RedBow.png";
 import "./TopBar.css";
 
 const TopBar = () => (
@@ -10,13 +11,13 @@ const TopBar = () => (
         <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
             <div class="top-bar topbar-sticky-shrink">
             <div class="top-bar-title">
-                <img src="https://placehold.it/150x38" alt="" />
+                <img src={RedBow} alt="redBow" />
             </div>
-            <div class="top-bar-right">
+            <div class="top-bar-center">
                 <ul class="menu">
-                <li><a href="#">Thing 1</a></li>
-                <li><a href="#">Thing 2</a></li>
-                <li><a href="#">Thing 3</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Gallery</a></li>
                 </ul>
             </div>
             </div>

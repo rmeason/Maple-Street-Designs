@@ -5,11 +5,11 @@ import "./Home.css";
 const Home = () => (
 
     <div class="about-the-author">
-        <h1 class="author-title">Maple Street Designs</h1>
+        <h1 class="author-title">About Us</h1>
         <div class="row">
             <div class="small-12 medium-4 columns">
             <div class="author-image">
-                <img alt="Richard Michael Eason" src={aboutPic} />
+                <img alt="aboutPic" src={aboutPic} />
             </div>
             <div class="author-social">
                 <a href="#">
@@ -33,7 +33,7 @@ const Home = () => (
             </div>
             </div>
             <div class="small-12 medium-8 columns">
-            <h4 class="separator-left">About Us</h4>
+            <h4 class="separator-left"></h4>
                 <p>Maple Street Designs, LLC specializes in meeting the decorating needs of  property management companies as well as small business owners.
                 We offer both ready-made and custom designs for rent or purchase for Christmas and other holidays and special occasions.  
                 We are committed to customer service and satisfaction.  Call today to see what we can do for you. 

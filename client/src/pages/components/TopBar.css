@@ -1,15 +1,28 @@
 
-.topbar-sticky-shrink {
+  .topbar-sticky-shrink {
     transition: padding 0.25s ease;
     background: white;
+
   }
 
   #emptyDiv {
       padding: 1rem;
   }
+
+  a {
+      color: black;
+      font-size: xx-large;
+  }
   
+  @media screen and (max-width: 656px) {
+    .topbar-sticky-shrink{
+        justify-content: center;
+    }
+  }
+
   .topbar-sticky-shrink .menu {
-    background: #2c3840;
+    background: white;
+    color: black;
   }
   
   .is-stuck .topbar-sticky-shrink {
