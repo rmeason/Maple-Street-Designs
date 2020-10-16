@@ -1,0 +1,31 @@
+
+.topbar-sticky-shrink {
+    transition: padding 0.25s ease;
+    background: white;
+  }
+
+  #emptyDiv {
+      padding: 1rem;
+  }
+  
+  .topbar-sticky-shrink .menu {
+    background: #2c3840;
+  }
+  
+  .is-stuck .topbar-sticky-shrink {
+    padding: 1rem;
+    transition: padding 0.25s ease;
+  }
+  
+  [data-sticky] {
+    width: 100%;
+  }
+  
+  .topbar-sticky-shrink-header {
+    padding: 1rem 0;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import TopBar from "./components/TopBar";
-// import Footer from "./Footer";
+import TopBar from "./components/TopBar";
+// import Footer from "./components/Footer";
 import Home from "./Home";
 // import Products from "./pages/Products";
 // import Gallery from "./pages/Gallery";
@@ -14,7 +14,7 @@ function PageContainer() {
       <Router>
 
         <div>
-            {/* <TopBar /> */}
+            <TopBar />
  
             <Route exact path={["/", "/home"]}>
                 <Home />
