@@ -15,9 +15,9 @@ const TopBar = () => (
             </div>
             <div class="top-bar-center">
                 <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a class="page" href="#">Home</a></li>
+                <li><a class="page" href="#">Products</a></li>
+                <li><a class="page" href="#">Gallery</a></li>
                 </ul>
             </div>
             </div>
