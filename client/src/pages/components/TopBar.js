@@ -13,7 +13,7 @@ const TopBar = () => (
         data-btm-anchor="content:bottom">
             <div class="top-bar topbar-sticky-shrink">
             <div class="top-bar-title">
-                <img src={RedBow} alt="redBow" />
+                <img id="bow" src={RedBow} alt="redBow" />
             </div>
             <div class="top-bar-center">
                 <ul class="menu">
