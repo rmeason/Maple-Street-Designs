@@ -1,4 +1,7 @@
 import React from 'react';
+import insta1 from "./imgs/insta-img-1.jpg";
+import insta2 from "./imgs/insta-img-2.jpg";
+import insta3 from "./imgs/insta-img-3.jpg";
 import "./Footer.css";
 
 const Footer = () => (
@@ -15,7 +18,7 @@ const Footer = () => (
             </ul>
             </div> */}
             <div class="medium-4 columns">
-            <h4 class="marketing-site-footer-title">Contact Info:</h4>
+            <h4 id="contact" class="marketing-site-footer-title">Contact Info:</h4>
             {/* <div class="marketing-site-footer-block">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <p>100 W Rincon<br />San Francisco, CA 94015</p>
@@ -45,13 +48,13 @@ const Footer = () => (
             </h4>
             <div class="row small-up-3">
                 <div class="column column-block">
-                <img src="https://placehold.it/75" alt="" />
+                <img src={insta1} alt="insta1" />
                 </div>
                 <div class="column column-block">
-                <img src="https://placehold.it/75" alt="" />
+                <img src={insta2} alt="insta2" />
                 </div>
                 <div class="column column-block">
-                <img src="https://placehold.it/75" alt="" />
+                <img src={insta3} alt="insta3" />
                 </div>
             </div>
             </div>

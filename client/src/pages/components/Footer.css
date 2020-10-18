@@ -86,6 +86,10 @@
       font-size: large;
   }
   
+  #contact {
+    padding-top: 5%;
+  }
+
   .marketing-site-footer-bottom p,
   .marketing-site-footer-bottom .menu {
     margin-bottom: 0;

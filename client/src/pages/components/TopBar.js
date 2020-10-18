@@ -8,14 +8,16 @@ const TopBar = () => (
         <div id="emptyDiv">
         </div>
         <div data-sticky-container>
-        <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+        <div data-sticky data-margin-top='0' 
+        data-top-anchor="header:bottom" 
+        data-btm-anchor="content:bottom">
             <div class="top-bar topbar-sticky-shrink">
             <div class="top-bar-title">
                 <img src={RedBow} alt="redBow" />
             </div>
             <div class="top-bar-center">
                 <ul class="menu">
-                <li><a class="page" href="#">Home</a></li>
+                <li><a class="page" href="/">Home</a></li>
                 <li><a class="page" href="#">Products</a></li>
                 <li><a class="page" href="#">Gallery</a></li>
                 </ul>
