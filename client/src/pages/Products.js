@@ -1,4 +1,7 @@
 import React from 'react';
+import gate from "./components/imgs/gate-pic.jpg"
+import sign from "./components/imgs/sign-pic.jpg"
+import tree from "./components/imgs/tree-pic.jpg"
 import ProductsWrapper from "./components/ProductsWrapper";
 import "./Products.css";
 
@@ -25,11 +28,11 @@ function Products() {
                     <div class="row align-spaced">
                     <div class="product-card">
                         <div class="product-card-thumbnail">
-                            <a href="#"><img src="https://placehold.it/180x180"/></a>
+                            <a href="#"><img src={gate}/></a>
                         </div>
-                        <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                        <h2 class="product-card-title"><a class="product" href="#">Sliding Gates</a></h2>
                         <span class="product-card-desc">Product Description</span>
-                        <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                        <span class="product-card-price">$65 per gate/installed</span>
                         <div class="product-card-colors">
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>
@@ -41,11 +44,11 @@ function Products() {
 
                         <div class="product-card">
                         <div class="product-card-thumbnail">
-                            <a href="#"><img src="https://placehold.it/180x180"/></a>
+                            <a href="#"><img src={sign}/></a>
                         </div>
-                        <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                        <h2 class="product-card-title"><a class="product" href="#">Community Signage</a></h2>
                         <span class="product-card-desc">Product Description</span>
-                        <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                        <span class="product-card-price">Contact us for pricing.</span>
                         <div class="product-card-colors">
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>
@@ -57,11 +60,11 @@ function Products() {
 
                         <div class="product-card">
                         <div class="product-card-thumbnail">
-                            <a href="#"><img src="https://placehold.it/180x180"/></a>
+                            <a href="#"><img src={tree}/></a>
                         </div>
-                        <h2 class="product-card-title"><a href="#">Product Name</a></h2>
+                        <h2 class="product-card-title"><a class="product" href="#">Lighted Trees</a></h2>
                         <span class="product-card-desc">Product Description</span>
-                        <span class="product-card-price">$9.99</span><span class="product-card-sale">$12.99</span>
+                        <span class="product-card-price">Contact us for pricing.</span>
                         <div class="product-card-colors">
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>
                             <button href="#" class="product-card-color-option"><img src="https://placehold.it/30x30"/></button>

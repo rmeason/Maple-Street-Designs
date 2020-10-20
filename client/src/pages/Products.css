@@ -2,6 +2,10 @@
       background: white;
       color: red;
   }
+
+  .product {
+      color: white;
+  }
   
   .product-card {
     background-color: red;
