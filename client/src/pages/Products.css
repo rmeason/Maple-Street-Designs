@@ -1,0 +1,120 @@
+  .wrap {
+      background: white;
+      color: red;
+  }
+  
+  .product-card {
+    background-color: red;
+    border: 2px solid black;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .product-card-thumbnail {
+    display: block;
+    position: relative;
+  }
+  
+  .product-card-title {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.45rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .product-card-desc {
+    color: #8a8a8a;
+    display: block;
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.85rem;
+  }
+  
+  .product-card-price {
+    color: #3e3e3e;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+  }
+  
+  .product-card-sale {
+    color: #cacaca;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-left: 0.3rem;
+    text-decoration: line-through;
+  }
+  
+  .product-card-colors {
+    display: block;
+    margin-top: 0.8rem;
+  }
+  
+  .product-card-color-option {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+  
+
+
+
+  /* .product-image-gallery {
+    background-color: #fefefe;
+    padding: 1.5rem;
+  }
+  
+  .pdp-product-image {
+    margin-bottom: 20px;
+  }
+  
+  .product-thumbs a {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0 !important;
+  }
+  
+  .product-thumbs a img {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+    line-height: 0;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    border: none;
+  }
+   */
+  
+
+
+
+  
+  .four-up-feature {
+    text-align: center;
+  }
+  
+  .four-up-feature .four-up-feature-header {
+    margin-bottom: 3rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .four-up-feature .four-up-feature-image {
+    margin-bottom: 2rem;
+  }
+  
+  .four-up-feature .four-up-feature-text {
+    margin-bottom: 2rem;
+  }
+  
+  
+  
