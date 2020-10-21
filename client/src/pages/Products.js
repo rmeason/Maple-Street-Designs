@@ -1,17 +1,16 @@
 import React from 'react';
-import gate from "./components/imgs/gate-pic.jpg"
-import sign from "./components/imgs/sign-pic.jpg"
-import tree from "./components/imgs/tree-pic.jpg"
+import gate from "./components/imgs/gate-pic.jpg";
+import sign from "./components/imgs/sign-pic.jpg";
+import tree from "./components/imgs/tree-pic.jpg";
 import ProductsWrapper from "./components/ProductsWrapper";
 import "./Products.css";
+import $ from 'jquery';
 
 function Products() {
 
-
-    //   $('.sim-thumb').on('click', function() {
-    //     $('#main-product-image').attr('src', $(this).data('image'));
-    //   })
-      
+    $('.sim-thumb').on('click', function() {
+        $('#main-product-image').attr('src', $(this).data('image'));
+      })
 
     return (
 
@@ -25,7 +24,7 @@ function Products() {
                         <h2>While we can make just about anything you can imagine, here is a sample of our basic products.</h2>
                         </div>
                     </div>
-                    <div class="row align-spaced">
+                    {/* <div class="row align-spaced">
                     <div class="product-card">
                         <div class="product-card-thumbnail">
                             <a href="#"><img src={gate}/></a>
@@ -74,45 +73,47 @@ function Products() {
                         </div>
 
 
-                    </div>
-
-                    {/* <div class="row align-center">
-                        <div class="product-image-gallery">
-                            <img class="pdp-product-image" id="main-product-image" src="https://placehold.it/350x350?text=Image+1" alt="" />
-                            <br />
-                            <ul class="menu product-thumbs align-center">
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-                    <div class="row align-center">
-                        <div class="product-image-gallery">
-                            <img class="pdp-product-image" id="main-product-image" src="https://placehold.it/350x350?text=Image+1" alt="" />
-                            <br />
-                            <ul class="menu product-thumbs align-center">
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-                    <div class="row align-center">
-                        <div class="product-image-gallery">
-                            <img class="pdp-product-image" id="main-product-image" src="https://placehold.it/350x350?text=Image+1" alt="" />
-                            <br />
-                            <ul class="menu product-thumbs align-center">
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                            </ul>
-                        </div>
                     </div> */}
+
+
+
+                    <div class="row align-center">
+                        <div class="product-image-gallery">
+                            <img class="pdp-product-image" id="main-product-image" src={gate} alt="gate" />
+                            <br />
+                            <ul class="menu product-thumbs align-center">
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="row align-center">
+                        <div class="product-image-gallery">
+                            <img class="pdp-product-image" id="main-product-image" src={sign} alt="sign" />
+                            <br />
+                            <ul class="menu product-thumbs align-center">
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="row align-center">
+                        <div class="product-image-gallery">
+                            <img class="pdp-product-image" id="main-product-image" src={tree} alt="tree" />
+                            <br />
+                            <ul class="menu product-thumbs align-center">
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                            </ul>
+                        </div>
+                    </div>
 
 
 
