@@ -68,12 +68,19 @@
 
 
   .product-image-gallery {
-    background-color: #fefefe;
+    background-color: white;
     padding: 1.5rem;
+    height: 300px;
+    width: 300px;
   }
   
   .pdp-product-image {
     margin-bottom: 20px;
+  }
+
+  .align-center {
+    display: flex;
+    flex-flow: wrap;
   }
   
   .product-thumbs a {
@@ -86,7 +93,7 @@
     display: inline-block;
     max-width: 100%;
     margin-bottom: 1rem;
-    border: solid 4px #fefefe;
+    border: solid 4px black;
     border-radius: 0;
     box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
     line-height: 0;

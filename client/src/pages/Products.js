@@ -1,6 +1,9 @@
 import React from 'react';
 import gate from "./components/imgs/gate-pic.jpg";
 import sign from "./components/imgs/sign-pic.jpg";
+import sign2 from "./components/imgs/sign-pic2.jpg";
+import sign3 from "./components/imgs/sign-pic3.jpg";
+import sign4 from "./components/imgs/sign-pic4.jpg";
 import tree from "./components/imgs/tree-pic.jpg";
 import ProductsWrapper from "./components/ProductsWrapper";
 import "./Products.css";
@@ -87,23 +90,23 @@ function Products() {
                                 <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
                             </ul>
                         </div>
-                    </div>
 
 
-                    <div class="row align-center">
+
+
                         <div class="product-image-gallery">
                             <img class="pdp-product-image" id="main-product-image" src={sign} alt="sign" />
                             <br />
                             <ul class="menu product-thumbs align-center">
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+1"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+2"><img src="https://placehold.it/50x50" alt="" /></a> </li>
-                                <li> <a class="sim-thumb" data-image="https://placehold.it/350x350?text=Image+3"><img src="https://placehold.it/50x50" alt="" /></a> </li>
+                                <li> <a class="sim-thumb" data-image={sign2}><img src={sign2} alt="sign2" /></a> </li>
+                                <li> <a class="sim-thumb" data-image={sign3}><img src={sign3} alt="sign3" /></a> </li>
+                                <li> <a class="sim-thumb" data-image={sign4}><img src={sign4} alt="sign4" /></a> </li>
                             </ul>
                         </div>
-                    </div>
 
 
-                    <div class="row align-center">
+
+
                         <div class="product-image-gallery">
                             <img class="pdp-product-image" id="main-product-image" src={tree} alt="tree" />
                             <br />
