@@ -1,5 +1,7 @@
 # Maple Street Designs
 
+![maplestreetdesignsimg](maple-street-designs-img.png)
+
 ## About This Project
 
 This is a buisness site for Maple Street Designs.
