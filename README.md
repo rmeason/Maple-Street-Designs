@@ -34,3 +34,8 @@ Your app should now be running on <http://localhost:3000>. The Express server sh
 Michael - r.michael.eason@gmail.com
 
 Project Link: http://maple-street-designs.herokuapp.com/
+
+## Acknowledgements
+
+  - Zurb Foundation
+  - Font Awesome
