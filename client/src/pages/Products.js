@@ -17,8 +17,8 @@ import $ from 'jquery';
 
 function Products() {
 
-    $('.sim-thumb').on('click', function() {
-        $('#main-product-image').attr('src', $(this).data('image'));
+      $('.sim-thumb').on('click', function() {
+        $('#main-product-image').attr('src', $(this).data('image')); 
       })
 
     return (
@@ -30,7 +30,7 @@ function Products() {
 
 
                         <div class="medium-8 columns">
-                        <h2>While we can make just about anything you can imagine, here is a sample of our basic products.</h2>
+                        <h2 class="product-head">While we can make just about anything you can imagine, here is a sample of our basic products.</h2>
                         </div>
                     </div>
                     {/* <div class="row align-spaced">

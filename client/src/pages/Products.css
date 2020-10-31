@@ -1,6 +1,10 @@
   .wrap {
-      background: white;
-      color: red;
+      background: red;
+      color: black;
+  }
+
+  .product-head {
+      font-weight: bold;
   }
 
   .product {
@@ -69,9 +73,11 @@
 
   .product-image-gallery {
     background-color: white;
+    border-radius: 25px;
     padding: 1.5rem;
     height: 375px;
     width: 375px;
+    margin: 1%;
   }
   
   .pdp-product-image {
