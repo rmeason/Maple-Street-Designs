@@ -4,29 +4,30 @@ import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
 import Home from "./Home";
 import Products from "./Products";
-
 import "./PageContainer.css"
 
 function PageContainer() {
 
     return (
-      <Router>
 
-        <div>
-            <TopBar />
- 
-            <Route exact path={["/", "/home"]}>
-                <Home />
-            </Route>
+        <Router>
 
-            <Route path="/products">
-                <Products />
-            </Route>
+          <div>
+              <TopBar />
+  
+              <Route exact path={["/", "/home"]}>
+                  <Home />
+              </Route>
 
-            <Footer />
-        </div>        
+              <Route path="/products">
+                  <Products />
+              </Route>
 
-      </Router>
+              <Footer />
+          </div>        
+
+        </Router>
+
     );
 
 }
