@@ -23,27 +23,30 @@ function Products() {
 
           $('.sim-thumb1').on('click', function() {
             $('#main-product-image1').attr('src', $(this).data('image')); 
+            console.log()
           });
+
+
 
       };
 
       const switchPic2 = (e) => {
-        e.preventDefault();
-        console.log("works")
+          e.preventDefault();
+          console.log("works")
 
-        $('.sim-thumb2').on('click', function() {
-          $('#main-product-image2').attr('src', $(this).data('image')); 
-        });
+          $('.sim-thumb2').on('click', function() {
+            $('#main-product-image2').attr('src', $(this).data('image')); 
+          });
 
       };      
     
       const switchPic3 = (e) => {
-        e.preventDefault();
-        console.log("works")
+          e.preventDefault();
+          console.log("works")
 
-        $('.sim-thumb3').on('click', function() {
-          $('#main-product-image3').attr('src', $(this).data('image')); 
-        });
+          $('.sim-thumb3').on('click', function() {
+            $('#main-product-image3').attr('src', $(this).data('image')); 
+          });
 
       }
 
@@ -68,7 +71,7 @@ function Products() {
                             <img class="pdp-product-image" id="main-product-image1" src={gate} alt="gate" />
                             <br />
                             <ul class="menu product-thumbs align-center">
-                                <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate}><img src={gate} alt="gate2" /></a> </li>
+                                <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate}><img src={gate} alt="gate" /></a> </li>
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate2}><img src={gate2} alt="gate2" /></a> </li>
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate3}><img src={gate3} alt="gate3" /></a> </li>
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate4}><img src={gate4} alt="gate4" /></a> </li>
@@ -82,7 +85,7 @@ function Products() {
                             <img class="pdp-product-image" id="main-product-image2" src={sign} alt="sign" />
                             <br />
                             <ul class="menu product-thumbs align-center">
-                                <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign}><img src={sign} alt="sign2" /></a> </li>
+                                <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign}><img src={sign} alt="sign" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign2}><img src={sign2} alt="sign2" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign3}><img src={sign3} alt="sign3" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign4}><img src={sign4} alt="sign4" /></a> </li>
@@ -96,7 +99,7 @@ function Products() {
                             <img class="pdp-product-image" id="main-product-image3" src={tree} alt="tree" />
                             <br />
                             <ul class="menu product-thumbs align-center">
-                                <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree}><img src={tree} alt="tree2" /></a> </li>
+                                <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree}><img src={tree} alt="tree" /></a> </li>
                                 <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree2}><img src={tree2} alt="tree2" /></a> </li>
                                 <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree3}><img src={tree3} alt="tree3" /></a> </li>
                                 <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree4}><img src={tree4} alt="tree4" /></a> </li>
