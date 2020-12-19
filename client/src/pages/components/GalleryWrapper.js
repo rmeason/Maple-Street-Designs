@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductsWrapper.css";
+import "./GalleryWrapper.css";
 
 function SearchWrapper(props) {
   return <div className="wrapper">{props.children}</div>;

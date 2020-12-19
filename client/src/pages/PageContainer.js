@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
 import Home from "./Home";
-import Products from "./Products";
+import Gallery from "./Gallery";
 import "./PageContainer.css"
 
 function PageContainer() {
@@ -19,8 +19,8 @@ function PageContainer() {
                   <Home />
               </Route>
 
-              <Route path="/products">
-                  <Products />
+              <Route exact path="/gallery">
+                  <Gallery />
               </Route>
 
               <Footer />

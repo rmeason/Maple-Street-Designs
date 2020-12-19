@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Wrapper from "./ProductsWrapper";
+import Wrapper from "./GalleryWrapper";
 import RedBow from "./imgs/RedBow.png";
 import "./TopBar.css";
 
@@ -19,7 +19,7 @@ const TopBar = () => (
             <div className="top-bar-center">
                 <ul className="menu">
                 <li><a className="page" href="/">Home</a></li>
-                <li><a className="page" href="/products">Gallery</a></li>
+                <li><a className="page" href="/gallery">Gallery</a></li>
                 <li><a className="page" href="#contact">Contact</a></li>
                 </ul>
             </div>

@@ -11,11 +11,12 @@ import tree from "./components/imgs/tree-pic.jpg";
 import tree2 from "./components/imgs/tree-pic2.jpg";
 import tree3 from "./components/imgs/tree-pic3.jpg";
 import tree4 from "./components/imgs/tree-pic4.jpg";
-import ProductsWrapper from "./components/ProductsWrapper";
-import "./Products.css";
+import clubhouse from "./components/imgs/clubhouse-pic.jpeg";
+import GalleryWrapper from "./components/GalleryWrapper";
+import "./Gallery.css";
 import $ from 'jquery';
 
-function Products() {
+function Gallery() {
 
       const switchPic1 = (e) => {
           e.preventDefault();
@@ -25,8 +26,6 @@ function Products() {
             $('#main-product-image1').attr('src', $(this).data('image')); 
             console.log()
           });
-
-
 
       };
 
@@ -48,11 +47,21 @@ function Products() {
             $('#main-product-image3').attr('src', $(this).data('image')); 
           });
 
-      }
+      };
+
+      const switchPic4 = (e) => {
+          e.preventDefault();
+          console.log("works")
+
+          $('.sim-thumb4').on('click', function() {
+            $('#main-product-image4').attr('src', $(this).data('image')); 
+          });
+
+      };
 
     return (
 
-        <ProductsWrapper>
+        <GalleryWrapper>
 
                 <section class="four-up-feature wrap">
 
@@ -106,14 +115,25 @@ function Products() {
                             </ul>
                         </div>
 
+                        <div class="product-image-gallery">
+                            <img class="pdp-product-image" id="main-product-image4" src={clubhouse} alt="clubhouse" />
+                            <br />
+                            <ul class="menu product-thumbs align-center">
+                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse" /></a> </li>
+                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse2" /></a> </li>
+                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse3" /></a> </li>
+                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse4" /></a> </li>
+                            </ul>
+                        </div>
+
                     </div>
 
                 </section>
 
-        </ProductsWrapper>
+        </GalleryWrapper>
     
     );
 
 }
 
-export default Products;
+export default Gallery;
