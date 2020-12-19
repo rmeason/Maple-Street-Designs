@@ -1,6 +1,6 @@
 
   .marketing-site-footer {
-    background: black;
+    background-image: url("./imgs/maplestreet-background.jfif.png");
     color: white;
     padding: 2rem 0 0;
   }
@@ -17,8 +17,17 @@
     margin-bottom: 1rem;
   }
 
+  .footer-sections {
+    background: black;
+    margin: 1rem;
+  }
+
   .contact {
     color: white;
+  }
+
+  #insta {
+    padding-top: 1rem;
   }
 
   .fa-phone:before {

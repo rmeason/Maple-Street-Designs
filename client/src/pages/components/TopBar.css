@@ -5,7 +5,17 @@
 
   }
 
+  #head {
+    background: white;
+    color: black;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 
+  #TopTb {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 
   #emptyDiv {
       padding: 1rem;

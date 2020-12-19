@@ -17,7 +17,7 @@ const Footer = () => (
                 <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             </ul>
             </div> */}
-            <div className="medium-4 columns">
+            <div className="medium-4 columns footer-sections">
             <h4 id="contact" className="marketing-site-footer-title">Contact Info:</h4>
             {/* <div class="marketing-site-footer-block">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -36,7 +36,7 @@ const Footer = () => (
                     </div>
                 </a>
             </div>
-            <div className="medium-4 columns">
+            <div className="medium-4 columns footer-sections" id="insta">
             <h4 className="marketing-site-footer-title">Instagram : 
             &nbsp;
                 <a href="https://www.instagram.com/Maple_Street_designs/" aria-label="Insta" rel="noopener" target="_blank">
