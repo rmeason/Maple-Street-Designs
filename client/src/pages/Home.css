@@ -38,6 +38,7 @@
   .about-the-author .author-title {
     text-transform: uppercase;
     text-align: center;
+    font-family: Open Sans;
   }
   
   .about-the-author .author-social {
@@ -50,34 +51,14 @@
     display: inline-block;
   }
   
-  /* .about-the-author .author-social .fa-stack.facebook {
-    color: #4c70ba;
-  }
-  
-  .about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
-    color: #3b5998;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter {
-    color: #83c3f3;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
-    color: #55acee;
-  }
-  
-  .about-the-author .author-social .fa-stack.linkedin {
-    color: #009ee8;
-  }
-  
-  .about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
-    color: #007bb5;
-  } */
-  
   .about-the-author .author-image {
     border: 1px solid #cacaca;
   }
   
   .thanks {
       float: right;
+  }
+
+  #abtUs {
+    font-family: open sans;
   }

@@ -33,7 +33,7 @@ const Home = () => (
             </div> */}
             <br />
             </div>
-            <div className="small-12 medium-8 columns">
+            <div className="small-12 medium-8 columns" id="abtUs">
             <h4 className="separator-left"></h4>
                 <p>Maple Street Designs, LLC specializes in meeting the decorating needs of  property management companies as well as small business owners.
                 We offer both ready-made and custom designs for rent or purchase for Christmas and other holidays and special occasions.  

@@ -40,7 +40,7 @@ const Footer = () => (
             <h4 className="marketing-site-footer-title">Instagram : 
             &nbsp;
                 <a href="https://www.instagram.com/Maple_Street_designs/" aria-label="Insta" rel="noopener" target="_blank">
-                    <span className="fa-stack fa-lg instagram">
+                    <span className="fa-stack fa-sm instagram">
                         <i className="fa fa-circle fa-stack-2x"></i>
                         <i className="fa fa-instagram fa-stack-1x fa-inverse"></i>
                     </span>

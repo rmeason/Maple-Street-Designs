@@ -1,12 +1,12 @@
   .wrap {
     background: radial-gradient(white, white, beige, beige);
-      color: black;
-      border-radius: 25px;
-      padding: 1rem;
+    color: black;
+    border-radius: 25px;
+    padding: 1rem;
   }
 
   .product-head {
-      font-weight: bold;
+    font-family: Open Sans;
   }
 
   .product-image-gallery {

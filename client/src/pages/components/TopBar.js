@@ -30,7 +30,7 @@ const TopBar = () => (
         <br />
         
         <header id="header" className="topbar-sticky-shrink-header">
-            <h1 id="head" >MAPLE STREET DESIGNS</h1>
+            <h1 id="head" >Maple Street Designs</h1>
         </header>
     </wrapper>
 
