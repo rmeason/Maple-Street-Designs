@@ -1,5 +1,5 @@
   .wrap {
-      background: red;
+    background: radial-gradient(white, white, beige, beige);
       color: black;
       border-radius: 25px;
       padding: 1rem;
@@ -10,8 +10,10 @@
   }
 
   .product-image-gallery {
-    background-color: white;
+    background: radial-gradient(white, beige);
     border-radius: 25px;
+    border: solid;
+    border-color: green;
     padding: 1.5rem;
     height: 375px;
     width: 375px;

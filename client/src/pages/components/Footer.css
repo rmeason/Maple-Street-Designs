@@ -1,12 +1,12 @@
 
   .marketing-site-footer {
-    background-image: url("./imgs/maplestreet-background.jfif.png");
-    color: white;
+    background-image: transparent;
+    color: black;
     padding: 2rem 0 0;
   }
   
   .marketing-site-footer .marketing-site-footer-menu-social a {
-    color: #fefefe;
+    color: black;
   }
   
   .marketing-site-footer .column-block {
@@ -18,13 +18,13 @@
   }
 
   .footer-sections {
-    background: black;
+    background: radial-gradient(white, white, beige, beige);
     margin: 1rem;
     border-radius: 25px;
   }
 
   .contact {
-    color: white;
+    color: black;
   }
 
   #insta {
@@ -32,11 +32,11 @@
   }
 
   .fa-phone:before {
-    color: red;
+    color: green;
   }
 
   .fa-envelope-o:before {
-    color: red;
+    color: green;
   }
 
   .fa-instagram:before {
@@ -56,13 +56,13 @@
   }
   
   .marketing-site-footer-name {
-    color: #fefefe;
+    color: black;
     margin-bottom: 1rem;
     font-size: 2rem;
   }
   
   .marketing-site-footer-title {
-    color: #fefefe;
+    color: black;
     margin-bottom: 1rem;
     font-size: 1.25rem;
   }
@@ -93,8 +93,8 @@
   }
 
   .copyright {
-      color: white;
-      background-color: red;
+      color: black;
+      background: radial-gradient(white, white, beige, beige);
       font-size: large;
       border-radius: 25px;
   }

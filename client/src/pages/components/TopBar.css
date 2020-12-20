@@ -1,13 +1,13 @@
 
   .topbar-sticky-shrink {
     transition: padding 0.25s ease;
-    background: white;
+    background: radial-gradient(white, white, beige, beige);
     border-radius: 25px;
 
   }
 
   #head {
-    background: white;
+    background: radial-gradient(white, white, beige, beige);
     color: black;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -49,7 +49,7 @@
   }
 
   .topbar-sticky-shrink .menu {
-    background: white;
+    background: transparent;
     color: black;
   }
   
