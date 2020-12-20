@@ -39,3 +39,4 @@ Project Link: https://maple-street-designs.herokuapp.com/
 
   - Zurb Foundation
   - Font Awesome
+  - Google Fonts
