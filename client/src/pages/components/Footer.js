@@ -17,7 +17,7 @@ const Footer = () => (
                 <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             </ul>
             </div> */}
-            <div className="medium-4 columns footer-sections">
+            <div className="medium-4 columns footer-sections" id="cont">
             <h4 id="contact" className="marketing-site-footer-title">Contact Info:</h4>
             {/* <div class="marketing-site-footer-block">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
