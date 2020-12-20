@@ -1,6 +1,8 @@
   .wrap {
       background: red;
       color: black;
+      border-radius: 25px;
+      padding: 1rem;
   }
 
   .product-head {

@@ -5,6 +5,7 @@
     margin: 1rem;
     border: 1px solid #cacaca;
     color: black;
+    border-radius: 25px;
   }
   
   .about-the-author .separator-left {

@@ -20,6 +20,7 @@
   .footer-sections {
     background: black;
     margin: 1rem;
+    border-radius: 25px;
   }
 
   .contact {
@@ -88,12 +89,14 @@
     padding: 1%;
     text-align: center;
     margin: 1rem;
+    border-radius: 25px;
   }
 
   .copyright {
       color: white;
       background-color: red;
       font-size: large;
+      border-radius: 25px;
   }
   
   #contact {
