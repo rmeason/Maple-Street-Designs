@@ -1,4 +1,8 @@
 import React from 'react';
+import gate from "./components/imgs/gate-pic.jpg";
+import tree2 from "./components/imgs/tree-pic2.jpg";
+import basic from "./components/imgs/basic-elegance.jfif";
+import party from "./components/imgs/christmas-party.jfif";
 import "./Product.css";
 
 const Product = () => (
@@ -7,7 +11,7 @@ const Product = () => (
         
         <div class="work-feature-block row">
             <div class="columns medium-7">
-                <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                <img class="work-feature-block-image" src={basic}/>
             </div>
             <div class="columns medium-5">
                 <h2 class="work-feature-block-header">Basic Elegance</h2>
@@ -41,7 +45,7 @@ const Product = () => (
                 </ul>
             </div>            
             <div class="columns medium-7">
-                <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                <img class="work-feature-block-image" src={gate}/>
             </div>
         </div>
 
@@ -49,7 +53,7 @@ const Product = () => (
         <div class="work-feature-block row">
             
             <div class="columns medium-7">
-                <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                <img class="work-feature-block-image" src={tree2}/>
             </div>
             <div class="columns medium-5">
                 <h2 class="work-feature-block-header">Lighted Trees</h2>
@@ -83,7 +87,7 @@ const Product = () => (
                 </ul>
             </div>            
             <div class="columns medium-7">
-                <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                <img class="work-feature-block-image" src={party}/>
             </div>
         </div>
 
