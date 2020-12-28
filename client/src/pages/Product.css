@@ -6,3 +6,16 @@
     margin-right: 7.5%;
     margin-left: 7.5%;
 }
+
+
+.work-feature-block {
+    padding: 10px 0;
+}
+  
+.work-feature-block-image {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+}
+  
+  
