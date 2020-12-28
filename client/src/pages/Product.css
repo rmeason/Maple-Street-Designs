@@ -1,0 +1,8 @@
+.product {
+    background: radial-gradient(white, white, beige, beige);
+    text-align: center;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}

@@ -4,7 +4,8 @@ import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
 import Home from "./Home";
 import Gallery from "./Gallery";
-import "./PageContainer.css"
+import Product from "./Product";
+import "./PageContainer.css";
 
 function PageContainer() {
 
@@ -21,6 +22,10 @@ function PageContainer() {
 
               <Route exact path="/gallery">
                   <Gallery />
+              </Route>
+
+              <Route exact path="/product">
+                  <Product />
               </Route>
 
               <Footer />

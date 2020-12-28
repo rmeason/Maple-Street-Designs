@@ -11,26 +11,6 @@ const Home = () => (
             <div className="author-image">
                 <img alt="aboutPic" src={aboutPic} />
             </div>
-            {/* <div class="author-social">
-                <a href="#">
-                <span class="fa-stack fa-lg facebook">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-                <a href="#">
-                <span class="fa-stack fa-lg twitter">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-                <a href="#">
-                <span class="fa-stack fa-lg linkedin">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-            </div> */}
             <br />
             </div>
             <div className="small-12 medium-8 columns" id="abtUs">
