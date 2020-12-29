@@ -8,6 +8,10 @@
     inline-size: fit-content;
 }
 
+#productHeader {
+    text-align: center;
+}
+
 
 .work-feature-block {
     padding: 3.5%;
@@ -43,4 +47,35 @@
     #colorChoice {
     padding-left: 4.5%;
     }
+}
+
+#red {
+    color: red;
+}
+#palePink {
+    color: rgb(230, 120, 120);
+}
+#fuchsia {
+    color: fuchsia;
+}
+#brown {
+    color: brown;
+}
+#gold {
+    color: gold;
+}
+#lightBlue {
+    color: lightblue;
+}
+#royalBlue {
+    color: royalblue;
+}
+#silver {
+    color: silver;
+}
+#lightGreen {
+    color: lightgreen;
+}
+#darkGreen {
+    color: darkgreen;
 }
