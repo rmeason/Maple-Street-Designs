@@ -43,6 +43,7 @@
     border-radius: 25px;
     margin: 1%;
     text-align-last: start !important;
+    font-weight: bold;
 }
 
 
@@ -87,4 +88,8 @@
 }
 #darkGreen {
     color: darkgreen;
+}
+
+#colorTitle {
+    font-weight: revert;
 }

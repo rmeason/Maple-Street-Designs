@@ -111,7 +111,7 @@ const Product = () => (
                     <h3>Please note that orders placed after October 31st will incur an additional 10% charge.</h3>
                 </div>
                 <div id="colorChoice">
-                    <h5>Colors Available:</h5>
+                    <h5 id="colorTitle">Colors Available:</h5>
                     <ul>
                         <li className="colorLi" id="red">Red</li>
                         <li className="colorLi" id="palePink">Pale pink</li>
