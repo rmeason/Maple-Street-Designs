@@ -42,9 +42,10 @@ const Product = () => (
                     </ul>
                 </div>
             </div>
+                <div className="install">
                     <p>Installation available for an additional charge.</p>
                     <h3>Please note that orders placed after October 31st will incur an additional 10% charge.</h3>
-
+                </div>
             <div className="work-feature-block row">
 
                 <div className="columns medium-5">
@@ -105,8 +106,10 @@ const Product = () => (
                     <img className="work-feature-block-image" src={party}/>
                 </div>
             </div>
-                <p>Installation available for an additional charge.</p>
-                <h4>Please note that orders placed after October 31st will incur an additional 10% charge.</h4>
+                <div className="install">
+                    <p>Installation available for an additional charge.</p>
+                    <h3>Please note that orders placed after October 31st will incur an additional 10% charge.</h3>
+                </div>
                 <br />
                 <div id="colorChoice">
                     <h5>Colors Available:</h5>
