@@ -3,6 +3,7 @@ import gate from "./components/imgs/gate-pic.jpg";
 import tree2 from "./components/imgs/tree-pic2.jpg";
 import basic from "./components/imgs/basic-elegance.jfif";
 import party from "./components/imgs/christmas-party.jfif";
+import ModalImage from "react-modal-image";
 import "./Product.css";
 
 const Product = () => (
@@ -10,8 +11,13 @@ const Product = () => (
         <div className="product">
             
             <div className="work-feature-block row">
-                <div className="columns medium-7">
-                    <img className="work-feature-block-image" src={basic}/>
+                <div className="columns medium-7">              
+                <ModalImage
+                    className="work-feature-block-image"
+                    small={basic}
+                    large={basic}
+                    alt="Basic Elegance"
+                />
                 </div>
                 <div className="columns medium-5">
                     <h2 className="work-feature-block-header">Basic Elegance</h2>
@@ -57,7 +63,12 @@ const Product = () => (
                     </ul>
                 </div>            
                 <div className="columns medium-7">
-                    <img className="work-feature-block-image" src={gate}/>
+                <ModalImage
+                    className="work-feature-block-image"
+                    small={gate}
+                    large={gate}
+                    alt="Sliding Gates"
+                />
                 </div>
             </div>
 
@@ -65,7 +76,12 @@ const Product = () => (
             <div className="work-feature-block row">
                 
                 <div className="columns medium-7">
-                    <img className="work-feature-block-image" src={tree2}/>
+                <ModalImage
+                    className="work-feature-block-image"
+                    small={tree2}
+                    large={tree2}
+                    alt="Lighted Trees"
+                />
                 </div>
                 <div className="columns medium-5">
                     <h2 className="work-feature-block-header">Lighted Trees</h2>
@@ -103,7 +119,12 @@ const Product = () => (
                     </ul>
                 </div>            
                 <div className="columns medium-7">
-                    <img className="work-feature-block-image" src={party}/>
+                <ModalImage
+                    className="work-feature-block-image"
+                    small={party}
+                    large={party}
+                    alt="Christmas Party"
+                />
                 </div>
             </div>
                 <div className="install">

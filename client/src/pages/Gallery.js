@@ -76,12 +76,12 @@ function Gallery() {
                     </div>
                     
                         <p>
-                            <a className="page" href="/galleryView">switch to gallery view</a>
+                            <a className="page gallerySwitch" href="/galleryView">switch to gallery view</a>
                         </p> 
 
                         
 
-                <p>Click on the Images to Switch between Photos</p>
+                <p className="clickOnImg">Click on the Images to Switch between Photos</p>
 
                     <div class="row align-center">
 

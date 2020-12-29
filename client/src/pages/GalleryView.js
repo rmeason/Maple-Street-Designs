@@ -23,10 +23,10 @@ function GalleryView() {
                 <h2 className="gvTitle" >Gallery View</h2>
 
                 <p>
-                    <a className="page" href="/gallery">switch to product category view</a>
+                    <a className="page gallerySwitch" href="/gallery">switch to product category view</a>
                 </p> 
 
-                <p>Click on the Images to Enlarge</p>
+                <p className="clickOnImg">Click on the Images to Enlarge</p>
 
             </div>
             <div class="row large-up-4 small-up-2">

@@ -13,6 +13,14 @@ img {
     transition: all 1s;
 }
 
-img.expanded {
-    max-width: 2000px;
+.clickOnImg {
+
+    text-decoration: underline;
+    font-weight: 700;
+
+}
+
+.gallerySwitch {
+
+   border: solid;
 }
