@@ -5,11 +5,16 @@
     padding: 1rem;
     margin-right: 7.5%;
     margin-left: 7.5%;
+    inline-size: fit-content;
 }
 
 
 .work-feature-block {
-    padding: 10px 0;
+    padding: 3.5%;
+    border: solid;
+    border-color: green;
+    border-radius: 25px;
+    margin: 1%;
 }
   
 .work-feature-block-image {
@@ -17,5 +22,25 @@
     margin: auto;
     padding: 10px 0;
 }
-  
-  
+
+#colorChoice {
+    padding: 1rem;
+    border: solid;
+    border-color: green;
+    border-radius: 25px;
+    margin: 1%;
+    text-align-last: start !important;
+}
+
+
+@media screen and (max-width: 650px){
+    #colorChoice {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 650px){
+    #colorChoice {
+    padding-left: 4.5%;
+    }
+}

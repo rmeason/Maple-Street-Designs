@@ -9,12 +9,12 @@ const Product = () => (
 
     <div className="product">
         
-        <div class="work-feature-block row">
-            <div class="columns medium-7">
-                <img class="work-feature-block-image" src={basic}/>
+        <div className="work-feature-block row">
+            <div className="columns medium-7">
+                <img className="work-feature-block-image" src={basic}/>
             </div>
-            <div class="columns medium-5">
-                <h2 class="work-feature-block-header">Basic Elegance</h2>
+            <div className="columns medium-5">
+                <h2 className="work-feature-block-header">Basic Elegance</h2>
                 <p>Red velvet ribbon on artificial evergreen wreath.</p>
                 <ul> Available sizes:
                 <p>Rental / Purchase</p>
@@ -41,41 +41,41 @@ const Product = () => (
                 <li>~4' spray - $84 / $110</li>
                 </ul>
             </div>
+        </div>
                 <p>Installation available for an additional charge.</p>
                 <h3>Please note that orders placed after October 31st will incur an additional 10% charge.</h3>
-        </div>
 
-        <div class="work-feature-block row">
+        <div className="work-feature-block row">
 
-            <div class="columns medium-5">
-                <h2 class="work-feature-block-header">Sliding Gates</h2>
+            <div className="columns medium-5">
+                <h2 className="work-feature-block-header">Sliding Gates</h2>
                 <p>If you have a gate that slides, we can "wrap" the gate.  We place bows at either side of the gate and run ribbon through the gate itself.</p>
                 <ul>
                 <li>$65 per gate/installed</li>
                 Additional charge for over-sized gates.
                 </ul>
             </div>            
-            <div class="columns medium-7">
-                <img class="work-feature-block-image" src={gate}/>
+            <div className="columns medium-7">
+                <img className="work-feature-block-image" src={gate}/>
             </div>
         </div>
 
 
-        <div class="work-feature-block row">
+        <div className="work-feature-block row">
             
-            <div class="columns medium-7">
-                <img class="work-feature-block-image" src={tree2}/>
+            <div className="columns medium-7">
+                <img className="work-feature-block-image" src={tree2}/>
             </div>
-            <div class="columns medium-5">
-                <h2 class="work-feature-block-header">Lighted Trees</h2>
+            <div className="columns medium-5">
+                <h2 className="work-feature-block-header">Lighted Trees</h2>
                 <p>If you have trees that you would like wrapped with lights, we are on the job! We use a commercial grade, concave, LED bulb. They are super bright with a brown wire that is not as conspicuous on tree trunks. Contact us for pricing.</p>
             </div>
         </div>
 
-        <div class="work-feature-block row">
+        <div className="work-feature-block row">
 
-            <div class="columns medium-5">
-                <h2 class="work-feature-block-header">Christmas Party</h2>
+            <div className="columns medium-5">
+                <h2 className="work-feature-block-header">Christmas Party</h2>
                 <p>Red velvet ribbon on artificial green wreath with shatter-proof ornaments in one or two colors.</p>
                 <ul> Available sizes:
                 <p>Rental / Purchase</p>
@@ -101,26 +101,28 @@ const Product = () => (
                 <li>~4' spray - $137 / $168</li>
                 </ul>
             </div>            
-            <div class="columns medium-7">
-                <img class="work-feature-block-image" src={party}/>
+            <div className="columns medium-7">
+                <img className="work-feature-block-image" src={party}/>
             </div>
         </div>
             <p>Installation available for an additional charge.</p>
             <h4>Please note that orders placed after October 31st will incur an additional 10% charge.</h4>
             <br />
-            <h5>Colors Available:</h5>
-            <ul>
-                <p>Red</p>
-                <p>Pale pink</p>
-                <p>Fuchsia</p>
-                <p>Brown</p>
-                <p>Gold</p>
-                <p>Light Blue</p>
-                <p>Royal blue</p>
-                <p>Silver</p>
-                <p>Light green</p>
-                <p>Dark green</p>
-            </ul>
+            <div id="colorChoice">
+                <h5>Colors Available:</h5>
+                <ul>
+                    <li className="colorLi">Red</li>
+                    <li className="colorLi">Pale pink</li>
+                    <li className="colorLi">Fuchsia</li>
+                    <li className="colorLi">Brown</li>
+                    <li className="colorLi">Gold</li>
+                    <li className="colorLi">Light Blue</li>
+                    <li className="colorLi">Royal blue</li>
+                    <li className="colorLi">Silver</li>
+                    <li className="colorLi">Light green</li>
+                    <li className="colorLi">Dark green</li>
+                </ul>
+            </div>
     </div>
 
 );
