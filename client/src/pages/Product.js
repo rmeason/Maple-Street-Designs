@@ -110,7 +110,6 @@ const Product = () => (
                     <p>Installation available for an additional charge.</p>
                     <h3>Please note that orders placed after October 31st will incur an additional 10% charge.</h3>
                 </div>
-                <br />
                 <div id="colorChoice">
                     <h5>Colors Available:</h5>
                     <ul>
