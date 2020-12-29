@@ -4,10 +4,13 @@ import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
 import Home from "./Home";
 import Gallery from "./Gallery";
+import GalleryView from "./GalleryView";
 import Product from "./Product";
 import "./PageContainer.css";
+import $ from 'jquery';
 
 function PageContainer() {
+
 
     return (
 
@@ -26,6 +29,10 @@ function PageContainer() {
 
               <Route exact path="/product">
                   <Product />
+              </Route>
+
+              <Route exact path="/galleryView">
+                  <GalleryView />
               </Route>
 
               <Footer />

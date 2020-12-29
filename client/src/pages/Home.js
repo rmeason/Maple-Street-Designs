@@ -1,15 +1,24 @@
 import React from 'react';
 import aboutPic from "./components/imgs/MSD-homepage.jpg";
 import "./Home.css";
+import ModalImage from "react-modal-image";
+import $ from 'jquery';
 
-const Home = () => (
+function Home () {
+
+
+    return (
 
     <div className="about-the-author">
         <h1 className="author-title">About Us</h1>
         <div className="row">
             <div className="small-12 medium-4 columns" id="aboutUsPic">
             <div className="author-image">
-                <img alt="aboutPic" src={aboutPic} />
+                <ModalImage
+                    small={aboutPic}
+                    large={aboutPic}
+                    alt="About Pic"
+                />
             </div>
             </div>
             <div className="small-12 medium-8 columns" id="abtUs">
@@ -27,6 +36,7 @@ const Home = () => (
         </div>
     </div>
 
-);
+    )
+};
 
 export default Home;

@@ -1,0 +1,38 @@
+
+  .gvTitle {
+    font-family: Open Sans;
+  }
+
+  .featured-image-block-grid-header {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .featured-image-block-grid {
+    background: radial-gradient(white, beige, beige);
+    border-radius: 25px;
+}
+  
+  .featured-image-block {
+    margin-bottom: 20px;
+  }
+  
+  .featured-image-block .featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040;
+  }
+
+  .gView {
+    border: solid;
+    border-color: green;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  

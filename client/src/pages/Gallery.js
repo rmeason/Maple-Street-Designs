@@ -8,12 +8,12 @@ import sign2 from "./components/imgs/sign-pic2.jpg";
 import sign3 from "./components/imgs/sign-pic3.jpg";
 import sign4 from "./components/imgs/sign-pic4.jpg";
 import tree from "./components/imgs/tree-pic.jpg";
-import tree2 from "./components/imgs/tree-pic2.jpg";
-import tree3 from "./components/imgs/tree-pic3.jpg";
 import tree4 from "./components/imgs/tree-pic4.jpg";
 import clubhouse from "./components/imgs/clubhouse-pic.jpeg";
 import GalleryWrapper from "./components/GalleryWrapper";
 import "./Gallery.css";
+import ModalImage from "react-modal-image";
+// import Enlarge from "./components/Enlarge";
 import $ from 'jquery';
 
 function Gallery() {
@@ -59,6 +59,7 @@ function Gallery() {
 
       };
 
+        
     return (
 
         <GalleryWrapper>
@@ -69,15 +70,28 @@ function Gallery() {
 
 
                         <div class="medium-8 columns">
-                            <h2 class="product-head">While we can make just about anything you can imagine, here is a sample of our basic products.</h2>
+                            <h2 class="product-head">Product Category View</h2>
                         </div>
 
                     </div>
+                    
+                        <p>
+                            <a className="page" href="/galleryView">switch to gallery view</a>
+                        </p> 
+
+                        
+
+                <p>Click on the Images to Switch between Photos</p>
 
                     <div class="row align-center">
 
                         <div class="product-image-gallery">
-                            <img class="pdp-product-image" id="main-product-image1" src={gate} alt="gate" />
+                            <img 
+                                
+                                 class="pdp-product-image" id="main-product-image1" src={gate} alt="gate"
+
+                            />
+
                             <br />
                             <ul class="menu product-thumbs align-center">
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate}><img src={gate} alt="gate" /></a> </li>
@@ -85,6 +99,7 @@ function Gallery() {
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate3}><img src={gate3} alt="gate3" /></a> </li>
                                 <li> <a onClick={switchPic1} class="sim-thumb1" data-image={gate4}><img src={gate4} alt="gate4" /></a> </li>
                             </ul>
+                            
                         </div>
 
 
