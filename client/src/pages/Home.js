@@ -7,11 +7,10 @@ const Home = () => (
     <div className="about-the-author">
         <h1 className="author-title">About Us</h1>
         <div className="row">
-            <div className="small-12 medium-4 columns">
+            <div className="small-12 medium-4 columns" id="aboutUsPic">
             <div className="author-image">
                 <img alt="aboutPic" src={aboutPic} />
             </div>
-            <br />
             </div>
             <div className="small-12 medium-8 columns" id="abtUs">
             <h4 className="separator-left"></h4>

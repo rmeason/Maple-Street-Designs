@@ -47,13 +47,13 @@ const Footer = () => (
                 </a>
             </h4>
             <div className="row small-up-3">
-                <div className="column column-block">
+                <div className="column column-block instaBlock">
                 <img src={insta1} alt="insta1" />
                 </div>
-                <div className="column column-block">
+                <div className="column column-block instaBlock">
                 <img src={insta2} alt="insta2" />
                 </div>
-                <div className="column column-block">
+                <div className="column column-block instaBlock">
                 <img src={insta3} alt="insta3" />
                 </div>
             </div>

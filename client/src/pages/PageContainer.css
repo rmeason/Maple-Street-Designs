@@ -2,3 +2,7 @@ body {
     background-image: url("./components/imgs/maplestreet-background.jfif.png");
     text-align: -webkit-center;
 }
+
+img {
+    border-radius: 25px;
+}

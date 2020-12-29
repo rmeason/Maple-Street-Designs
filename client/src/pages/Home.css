@@ -1,6 +1,12 @@
+#aboutUsPic {
+  border: solid;
+  border-color: green;
+  border-radius: 25px;
+  padding: 1rem;
+}
 
 .about-the-author {
-  background: radial-gradient(white, white, beige, beige);
+    background: radial-gradient(white, white, beige, beige);
     padding: 1rem;
     border: 1px solid #cacaca;
     color: black;

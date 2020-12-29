@@ -35,6 +35,14 @@
     padding-top: 1rem;
   }
 
+  .instaBlock {
+    /* border: solid;
+    border-color: green;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: .5px; */
+  }
+
   .fa-phone:before {
     color: green;
   }
