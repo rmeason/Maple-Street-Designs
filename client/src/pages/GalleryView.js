@@ -32,7 +32,7 @@ function GalleryView() {
             </div>
             <div class="row large-up-4 small-up-2">
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={gate}
                     large={gate}
                     alt="gate"
@@ -40,7 +40,7 @@ function GalleryView() {
                 </div>
                 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={gate2}
                     large={gate2}
                     alt="gate"
@@ -48,7 +48,7 @@ function GalleryView() {
                 </div>
                 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={gate3}
                     large={gate3}
                     alt="gate"
@@ -56,7 +56,7 @@ function GalleryView() {
                 </div>
                 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={gate4}
                     large={gate4}
                     alt="gate"
@@ -64,7 +64,7 @@ function GalleryView() {
                 </div>
                 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={sign}
                     large={sign}
                     alt="sign"
@@ -72,7 +72,7 @@ function GalleryView() {
                 </div>
             
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={sign2}
                     large={sign2}
                     alt="sign"
@@ -80,7 +80,7 @@ function GalleryView() {
                 </div>
                 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={sign3}
                     large={sign3}
                     alt="sign"
@@ -88,7 +88,7 @@ function GalleryView() {
                 </div>
 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={sign4}
                     large={sign4}
                     alt="sign"
@@ -96,7 +96,7 @@ function GalleryView() {
                 </div>
 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={sign5}
                     large={sign5}
                     alt="sign"
@@ -104,7 +104,7 @@ function GalleryView() {
                 </div>
 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={tree}
                     large={tree}
                     alt="tree"
@@ -112,7 +112,7 @@ function GalleryView() {
                 </div>
 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={tree4}
                     large={tree4}
                     alt="tree"
@@ -120,7 +120,7 @@ function GalleryView() {
                 </div>
 
                 <div class="featured-image-block column gView">
-                <ModalImage
+                <ModalImage className="galImg"
                     small={clubhouse}
                     large={clubhouse}
                     alt="clubhouse"
