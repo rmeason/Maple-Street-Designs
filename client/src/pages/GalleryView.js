@@ -8,6 +8,7 @@ import sign from "./components/imgs/sign-pic.jpg";
 import sign2 from "./components/imgs/sign-pic2.jpg";
 import sign3 from "./components/imgs/sign-pic3.jpg";
 import sign4 from "./components/imgs/sign-pic4.jpg";
+import sign5 from "./components/imgs/sign5.jpg"
 import tree from "./components/imgs/tree-pic.jpg";
 import tree4 from "./components/imgs/tree-pic4.jpg";
 import clubhouse from "./components/imgs/clubhouse-pic.jpeg";
@@ -90,6 +91,14 @@ function GalleryView() {
                 <ModalImage
                     small={sign4}
                     large={sign4}
+                    alt="sign"
+                />
+                </div>
+
+                <div class="featured-image-block column gView">
+                <ModalImage
+                    small={sign5}
+                    large={sign5}
                     alt="sign"
                 />
                 </div>

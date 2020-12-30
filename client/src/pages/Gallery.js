@@ -7,6 +7,7 @@ import sign from "./components/imgs/sign-pic.jpg";
 import sign2 from "./components/imgs/sign-pic2.jpg";
 import sign3 from "./components/imgs/sign-pic3.jpg";
 import sign4 from "./components/imgs/sign-pic4.jpg";
+import sign5 from "./components/imgs/sign5.jpg";
 import tree from "./components/imgs/tree-pic.jpg";
 import tree4 from "./components/imgs/tree-pic4.jpg";
 import clubhouse from "./components/imgs/clubhouse-pic.jpeg";
@@ -105,9 +106,10 @@ function Gallery() {
 
 
                         <div class="product-image-gallery">
-                            <img class="pdp-product-image" id="main-product-image2" src={sign} alt="sign" />
+                            <img class="pdp-product-image" id="main-product-image2" src={sign5} alt="sign" />
                             <br />
                             <ul class="menu product-thumbs align-center">
+                                <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign5}><img src={sign5} alt="sign5" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign}><img src={sign} alt="sign" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign2}><img src={sign2} alt="sign2" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign3}><img src={sign3} alt="sign3" /></a> </li>
