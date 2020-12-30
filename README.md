@@ -1,6 +1,6 @@
 # Maple Street Designs
 
-![maplestreetdesignsimg](maple-street-designs-img.png)
+![maplestreetdesignsimg](maple-street-designs-img-new.png)
 
 ## About This Project
 
