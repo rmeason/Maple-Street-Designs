@@ -4,7 +4,7 @@ import gate2 from "./components/imgs/gate-pic2.jpg";
 import gate3 from "./components/imgs/gate-pic3.jpg";
 import gate4 from "./components/imgs/gate-pic4.jpg";
 import sign from "./components/imgs/sign-pic.jpg";
-import sign2 from "./components/imgs/sign-pic2.jpg";
+// import sign2 from "./components/imgs/sign-pic2.jpg";
 import sign3 from "./components/imgs/sign-pic3.jpg";
 import sign4 from "./components/imgs/sign-pic4.jpg";
 import sign5 from "./components/imgs/sign5.jpg";
@@ -13,8 +13,7 @@ import tree4 from "./components/imgs/tree-pic4.jpg";
 import clubhouse from "./components/imgs/clubhouse-pic.jpeg";
 import GalleryWrapper from "./components/GalleryWrapper";
 import "./Gallery.css";
-import ModalImage from "react-modal-image";
-// import Enlarge from "./components/Enlarge";
+// import ModalImage from "react-modal-image";
 import $ from 'jquery';
 
 function Gallery() {
@@ -111,7 +110,7 @@ function Gallery() {
                             <ul class="menu product-thumbs align-center">
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign5}><img src={sign5} alt="sign5" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign}><img src={sign} alt="sign" /></a> </li>
-                                <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign2}><img src={sign2} alt="sign2" /></a> </li>
+                                {/* <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign2}><img src={sign2} alt="sign2" /></a> </li> */}
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign3}><img src={sign3} alt="sign3" /></a> </li>
                                 <li> <a onClick={switchPic2} class="sim-thumb2" data-image={sign4}><img src={sign4} alt="sign4" /></a> </li>
                             </ul>
