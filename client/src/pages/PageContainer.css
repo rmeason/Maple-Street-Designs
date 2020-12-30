@@ -1,7 +1,14 @@
 body {
-    background-image: url("./components/imgs/maplestreet-background.jfif.png");
+    /* background-image: linear-gradient(darkgreen, green, lightgreen); */
+    background-image: url("./components/imgs/maplestreet-background.new.jpg");
+
+
     text-align: -webkit-center;
 }
+
+/* body:after {
+    background-color: darkgreen;
+} */
 
 img {
     border-radius: 25px;
