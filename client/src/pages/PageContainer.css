@@ -20,7 +20,51 @@ img {
 
 }
 
-.gallerySwitch {
+/* .gallerySwitch {
 
    border: solid;
+
+} */
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+
+
+    font-size: large;
+
+    font-weight: bold;
+
+    color: beige;
+
+    	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: red; /*for compatibility with older browsers*/
+    background-image: linear-gradient(red,rgb(248, 101, 126), pink);
+    
+    border-radius: 22.5px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+
+}
+
+
+a.button:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	/* width: calc(100% - 4px);
+	height: 50%; */
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+a.button:hover{
+    background: linear-gradient(rgb(1, 53, 24),rgb(8, 97, 67));
 }

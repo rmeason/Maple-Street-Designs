@@ -76,10 +76,9 @@ function Gallery() {
                     </div>
                     
                         <p>
-                            <a className="page gallerySwitch" href="/galleryView">switch to gallery view</a>
+                            <a className="page gallerySwitch button" href="/galleryView">switch to gallery view</a>
                         </p> 
 
-                        
 
                 <p className="clickOnImg">Click on the Images to Switch between Photos</p>
 
