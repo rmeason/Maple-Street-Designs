@@ -125,8 +125,8 @@ function Gallery() {
                             <ul class="menu product-thumbs align-center">
                                 <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree}><img src={tree} alt="tree" /></a> </li>
                                 <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree4}><img src={tree4} alt="tree2" /></a> </li>
-                                <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree}><img src={tree} alt="tree3" /></a> </li>
-                                <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree4}><img src={tree4} alt="tree4" /></a> </li>
+                                {/* <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree}><img src={tree} alt="tree3" /></a> </li>
+                                <li> <a onClick={switchPic3} class="sim-thumb3" data-image={tree4}><img src={tree4} alt="tree4" /></a> </li> */}
                             </ul>
                         </div>
 
@@ -135,9 +135,9 @@ function Gallery() {
                             <br />
                             <ul class="menu product-thumbs align-center">
                                 <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse" /></a> </li>
-                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse2" /></a> </li>
+                                {/* <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse2" /></a> </li>
                                 <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse3" /></a> </li>
-                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse4" /></a> </li>
+                                <li> <a onClick={switchPic4} class="sim-thumb4" data-image={clubhouse}><img src={clubhouse} alt="clubhouse4" /></a> </li> */}
                             </ul>
                         </div>
 
