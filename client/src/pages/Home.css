@@ -1,8 +1,9 @@
 #aboutUsPic {
-  border: solid;
-  border-color: green;
   border-radius: 25px;
-  padding: 1rem;
+  padding: .75rem;
+  background-image: linear-gradient(rgb(1, 53, 24),rgb(8, 97, 67), rgb(132, 230, 132));
+  box-shadow: 0px 1.5px 5px -1px #333;
+  text-shadow: 0px -1px #333;
 }
 
 .about-the-author {
@@ -56,7 +57,7 @@
   .about-the-author .separator-left::after {
     position: relative;
     width: 5rem;
-    border-bottom: 0.125rem solid #1779ba;
+    border-bottom: 0.125rem solid green;
     margin: 0.3rem auto 0;
     margin-left: 0;
   }
@@ -75,10 +76,6 @@
   
   .about-the-author .author-social .fa-stack {
     display: inline-block;
-  }
-  
-  .about-the-author .author-image {
-    border: 1px solid #cacaca;
   }
   
   .thanks {

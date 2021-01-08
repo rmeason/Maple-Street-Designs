@@ -9,6 +9,10 @@ import "./Product.css";
 const Product = () => (
 
         <div className="product">
+
+            <div className="product-desc">
+                <p>While we can make just about anything you can imagine, here is a sample of our basic products.</p>
+            </div>
             
             <div className="work-feature-block row">
                 <div className="columns medium-7">              

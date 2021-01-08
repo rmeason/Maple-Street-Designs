@@ -15,6 +15,8 @@
     border-radius: 25px;
     border: solid;
     border-color: green;
+    box-shadow: 0px 1.5px 5px -1px #333;
+    text-shadow: 0px -1px #333;
     padding: 1.5rem;
     height: 375px;
     width: 375px;
@@ -23,6 +25,10 @@
   
   .pdp-product-image {
     margin-bottom: 20px;
+    padding: 1.75%;
+    background-image: linear-gradient(rgb(1, 53, 24),rgb(8, 97, 67), rgb(132, 230, 132));
+    box-shadow: 0px 1.5px 5px -1px #333;
+    text-shadow: 0px -1px #333;
   }
 
   .align-center {
@@ -34,6 +40,7 @@
     margin-left: 8px;
     margin-right: 8px;
     padding: 0 !important;
+    
   }
   
   .product-thumbs a img {
@@ -48,4 +55,8 @@
     width: 50px;
     height: 50px;
     border: none;
+    padding: 1.75%;
+    background-image: linear-gradient(rgb(1, 53, 24),rgb(8, 97, 67), rgb(132, 230, 132));
+    box-shadow: 0px 1.5px 5px -1px #333;
+    text-shadow: 0px -1px #333;
   }
