@@ -37,7 +37,8 @@
     box-shadow: 0px 1.5px 5px -1px #333;
     text-shadow: 0px -1px #333;
     border-radius: 25px;
-    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
   
 .work-feature-block-image {
