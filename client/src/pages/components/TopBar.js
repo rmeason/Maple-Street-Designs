@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Wrapper from "./GalleryWrapper";
-import RedBow from "./imgs/RedBow.png";
+import RedBow from "./imgs/RealRedBow.png";
 import "./TopBar.css";
 
 const TopBar = () => (
