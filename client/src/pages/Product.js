@@ -1,5 +1,5 @@
 import React from 'react';
-import gate from "./components/imgs/gate-pic.jpg";
+import gate from "./components/imgs/gate-pic4.jpg";
 import tree2 from "./components/imgs/tree-pic2.jpg";
 import basic from "./components/imgs/basic-elegance.jfif";
 import party from "./components/imgs/christmas-party.jfif";
@@ -28,27 +28,27 @@ const Product = () => (
                     <p>Red velvet ribbon on artificial evergreen wreath.</p>
                     <ul> Available sizes:
                     <p>Rental / Purchase</p>
-                    <li>24" - $27 / $37</li>
-                    <li>30" - $48 / 58</li>
-                    <li>36" - $58 / $66</li>
-                    <li>48" - $79 / $100</li>
-                    <li>60" - $110 / $132</li>
-                    <li>72" - $123 / $147</li>
-                    <li>9' garland - $53 / $63</li>
-                    <li>~4' spray - $58 / $69</li>
+                    <p>24" - $27 / $37</p>
+                    <p>30" - $48 / 58</p>
+                    <p>36" - $58 / $66</p>
+                    <p>48" - $79 / $100</p>
+                    <p>60" - $110 / $132</p>
+                    <p>72" - $123 / $147</p>
+                    <p>9' garland - $53 / $63</p>
+                    <p>~4' spray - $58 / $69</p>
                     </ul>
 
                     <p>Red velvet ribbon on lighted, artificial evergreen wreath.</p>
                     <ul> Available sizes:
                     <p>Rental / Purchase</p>
-                    <li>24" - $48 / $58</li>
-                    <li>30" - $63 / $79</li>
-                    <li>36" - $84 / $105</li>
-                    <li>48" - $116 / $142</li>
-                    <li>60" - $168 / $210</li>
-                    <li>72" - $205 / $258</li>
-                    <li>9' garland - $74 / $95</li>
-                    <li>~4' spray - $84 / $110</li>
+                    <p>24" - $48 / $58</p>
+                    <p>30" - $63 / $79</p>
+                    <p>36" - $84 / $105</p>
+                    <p>48" - $116 / $142</p>
+                    <p>60" - $168 / $210</p>
+                    <p>72" - $205 / $258</p>
+                    <p>9' garland - $74 / $95</p>
+                    <p>~4' spray - $84 / $110</p>
                     </ul>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const Product = () => (
                     <h2 className="work-feature-block-header">Sliding Gates</h2>
                     <p>If you have a gate that slides, we can "wrap" the gate.  We place bows at either side of the gate and run ribbon through the gate itself.</p>
                     <ul>
-                    <li>$65 per gate/installed</li>
+                    <p>$65 per gate/installed</p>
                     Additional charge for over-sized gates.
                     </ul>
                 </div>            
@@ -100,26 +100,26 @@ const Product = () => (
                     <p>Red velvet ribbon on artificial green wreath with shatter-proof ornaments in one or two colors.</p>
                     <ul> Available sizes:
                     <p>Rental / Purchase</p>
-                    <li>24" - $48 / $58</li>
-                    <li>30" - $84 / 105</li>
-                    <li>36" - $95 / $123</li>
-                    <li>48" - $132 / $163</li>
-                    <li>60" - $168 / $210</li>
-                    <li>72" - $200 / $252</li>
-                    <li>9' garland - $95 / $123</li>
-                    <li>~4' spray - $100 / $126</li>
+                    <p>24" - $48 / $58</p>
+                    <p>30" - $84 / 105</p>
+                    <p>36" - $95 / $123</p>
+                    <p>48" - $132 / $163</p>
+                    <p>60" - $168 / $210</p>
+                    <p>72" - $200 / $252</p>
+                    <p>9' garland - $95 / $123</p>
+                    <p>~4' spray - $100 / $126</p>
                     </ul>
                     <p>Red velvet ribbon on lighted, artificial green wreath with shatter-proof ornaments in one or two colors.</p>
                     <ul> Available sizes:
                     <p>Rental / Purchase</p>
-                    <li>24" - $53 / $69</li>
-                    <li>30" - $111 / 137</li>
-                    <li>36" - $132 / $163</li>
-                    <li>48" - $179 / $226</li>
-                    <li>60" - $231 / $289</li>
-                    <li>72" - $284 / $357</li>
-                    <li>9' garland - $132 / $163</li>
-                    <li>~4' spray - $137 / $168</li>
+                    <p>24" - $53 / $69</p>
+                    <p>30" - $111 / 137</p>
+                    <p>36" - $132 / $163</p>
+                    <p>48" - $179 / $226</p>
+                    <p>60" - $231 / $289</p>
+                    <p>72" - $284 / $357</p>
+                    <p>9' garland - $132 / $163</p>
+                    <p>~4' spray - $137 / $168</p>
                     </ul>
                 </div>            
                 <div className="columns medium-7">
@@ -138,16 +138,16 @@ const Product = () => (
                 <div id="colorChoice">
                     <h5 id="colorTitle">Colors Available:</h5>
                     <ul>
-                        <li className="colorLi" id="red">Red</li>
-                        <li className="colorLi" id="palePink">Pale pink</li>
-                        <li className="colorLi" id="fuchsia">Fuchsia</li>
-                        <li className="colorLi" id="brown">Brown</li>
-                        <li className="colorLi" id="gold">Gold</li>
-                        <li className="colorLi" id="lightBlue">Light Blue</li>
-                        <li className="colorLi" id="royalBlue">Royal blue</li>
-                        <li className="colorLi" id="silver">Silver</li>
-                        <li className="colorLi" id="lightGreen">Light green</li>
-                        <li className="colorLi" id="darkGreen">Dark green</li>
+                        <p className="colorLi" id="red">Red</p>
+                        <p className="colorLi" id="palePink">Pale pink</p>
+                        <p className="colorLi" id="fuchsia">Fuchsia</p>
+                        <p className="colorLi" id="brown">Brown</p>
+                        <p className="colorLi" id="gold">Gold</p>
+                        <p className="colorLi" id="lightBlue">Light Blue</p>
+                        <p className="colorLi" id="royalBlue">Royal blue</p>
+                        <p className="colorLi" id="silver">Silver</p>
+                        <p className="colorLi" id="lightGreen">Light green</p>
+                        <p className="colorLi" id="darkGreen">Dark green</p>
                     </ul>
                 </div>
         </div>
