@@ -7,10 +7,16 @@ import Gallery from "./Gallery";
 import GalleryView from "./GalleryView";
 import Product from "./Product";
 import "./PageContainer.css";
+import Loading from "./Loading"
 import $ from 'jquery';
 
 function PageContainer() {
 
+    const { isLoading };
+
+    if (isLoading) {
+        return <Loading />;
+      }
 
     return (
 
