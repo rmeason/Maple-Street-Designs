@@ -21,7 +21,7 @@ function Home () {
                 />
             </div>
             </div>
-            <div className="small-12 medium-8 columns" id="abtUs" style="text-align: left">
+            <div className="small-12 medium-8 columns" id="abtUs">
             
                 <p>Maple Street Designs, LLC specializes in meeting the decorating needs of  property management companies as well as small business owners in and around the Houston, TX area.
                 We offer both ready-made and custom designs for rent or purchase for Christmas and other holidays and special occasions.  
