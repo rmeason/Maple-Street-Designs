@@ -20,7 +20,6 @@ const TopBar = () => (
                         <ul className="menu">
                         <li><a className="page" href="/">Home</a></li>
                         <li><a className="page" href="/gallery">Gallery</a></li>
-                        /*<li><a className="page" href="/product">Products</a></li>*/
                         <li><a className="page" href="#contact">Contact</a></li>
                         </ul>
                     </div>
