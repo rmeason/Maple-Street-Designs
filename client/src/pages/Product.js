@@ -7,9 +7,9 @@ import ModalImage from "react-modal-image";
 import "./Product.css";
 
 const Product = () => (
-/*
-        <div className="product">
 
+        <div className="product">
+/*
             <div className="product-desc">
                 <p>While we can make just about anything you can imagine, here is a sample of our basic products.</p>
             </div>
@@ -149,9 +149,9 @@ const Product = () => (
                         <p className="colorLi" id="lightGreen">Light green</p>
                         <p className="colorLi" id="darkGreen">Dark green</p>
                     </ul>
-                </div>
+           */     </div>
         </div>
-        */
+        
 );
 
 export default Product;
