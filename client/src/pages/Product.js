@@ -7,7 +7,7 @@ import ModalImage from "react-modal-image";
 import "./Product.css";
 
 const Product = () => (
-
+/*
         <div className="product">
 
             <div className="product-desc">
@@ -151,6 +151,7 @@ const Product = () => (
                     </ul>
                 </div>
         </div>
+        */
 );
 
 export default Product;
