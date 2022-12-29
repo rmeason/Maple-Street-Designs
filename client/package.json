@@ -13,9 +13,9 @@
     "react-modal-image": "^2.5.0",
     "react-scripts": "^2.1.1",
     "react-snowfall": "^1.0.2"
-  },
+  },  
   "engines": {
-    "node": "14.17.5"
+    "node": "18.x"
   },
   "scripts": {
     "start": "react-scripts start",
